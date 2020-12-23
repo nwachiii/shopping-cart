@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -13,9 +15,10 @@ body,
 body,
 input,
 select,
+button,
 textarea {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid-container {
@@ -25,7 +28,9 @@ textarea {
   grid-template-columns: 1fr;
   height: 100vh;
 }
-
+a {
+  text-decoration: none;
+}
 a:hover {
   color: #ff8000;
 }
@@ -46,8 +51,19 @@ header a {
 
 main {
   grid-area: main;
+}
+
+.content {
   display: flex;
-  padding: 3rem;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  flex: 1 20rem;
+}
+
+.main {
+  flex: 3 60rem;
 }
 
 footer {
@@ -57,4 +73,53 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* products */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+}
+
+.products li {
+  flex: 1 1 29rem;
+  height: 47rem;
+  padding: 1rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin-bottom: 3rem;
+}
+.product img {
+  max-width: 37em;
+  max-height: 37rem;
+}
+.product__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product__price div,
+.product__price button {
+  text-align: center;
+  flex: 1;
+}
+.product__price div {
+  font-size: 2rem;
+}
+.button:hover {
+  border: 0.1rem #808080 solid;
+  cursor: pointer;
+}
+
+.button.primary {
+  background-color: #ffc040;
 }
