@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "_id": "1st-image",
+      "image": "/images/1st-image.jpg",
+      "title": "Midi sunimage with shirring detail",
+      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+      "availableSizes": ["X", "L", "XL", "XXL"],
+      "price": 29.9
+    },
+    {
+      "_id": "2nd-image",
+      "image": "/images/2nd-image.jpg",
+      "title": "Midi sunimage with ruched front",
+      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+      "availableSizes": ["X", "M", "L"],
+      "price": 18.9
+    },
+    {
+      "_id": "3rd-image",
+      "image": "/images/3rd-image.jpg",
+      "title": "Midi image in pink ditsy floral",
+      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+      "availableSizes": ["X", "M", "L"],
+      "price": 14.9
+    },
+    {
+      "_id": "4th-image",
+      "image": "/images/4th-image.jpg",
+      "title": "cami maxi image in polka dot",
+      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+      "availableSizes": ["XL"],
+      "price": 25.9
+    },
+    {
+      "_id": "5th-image",
+      "image": "/images/5th-image.jpg",
+      "title": "Frill mini image in yellow polka dot",
+      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+      "availableSizes": ["X", "L", "XL"],
+      "price": 10.9
+    },
+    {
+      "_id": "6th-image",
+      "image": "/images/6th-image.jpg",
+      "title": "Midi tea image in blue and red spot",
+      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
+      "availableSizes": ["XL", "XXL"],
+      "price": 49.9
+    }
+  ]
+}

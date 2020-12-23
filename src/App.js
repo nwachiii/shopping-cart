@@ -1,15 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
+import Products from "./components/Products";
+import data from "./data.json";
 
-function App() {
+import "./index.css";
+
+const App = () => {
+  const [products, setProducts] = useState(data.products);
+  // const [size, setSize] = useState("");
   return (
     <div className="grid-container">
       <header className="App-header">
         <a href="/">Shopping Cart</a>
       </header>
-      <main>Product List</main>
+      <main>
+        <div className="content">
+          <div className="main">
+            <Products products={products}>
+              <h1>I Love this</h1>
+            </Products>
+          </div>
+          <div className="sidebar">Cart Items</div>
+        </div>
+      </main>
       <footer>All right is reserved</footer>
     </div>
   );
-}
+};
 
 export default App;
