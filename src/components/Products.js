@@ -7,9 +7,11 @@ function Products({ products }) {
       <ul className="products">
         {products.map((product) => (
           <li key={product._id}>
-            <div class="product">
+            <div className="product">
               <a href={"#" + product._id}>
-                <img src={product.image} alt={product.title} />
+                <div className="product__img">
+                  <img src={product.image} alt={product.title} />
+                </div>
                 <p>{product.title}</p>
               </a>
               <div className="product__price">
